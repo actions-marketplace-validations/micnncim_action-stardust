@@ -30,8 +30,6 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
       - uses: micnncim/action-stardust@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
